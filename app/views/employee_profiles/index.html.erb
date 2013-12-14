@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Profiles</title>
+  </head>
+
+  <body>
+    <h1>Employee Profiles</h1>
+    <% @employees.each do |employee| %>
+      <h2><a href="localhost:3000/employee_profiles/<%=employee.id%>"><%= employee.first_name %> <%= employee.last_name %></h2>
+    <% end %>
+  </body>
+</html>
