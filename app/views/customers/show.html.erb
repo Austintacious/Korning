@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Information</title>
+  </head>
+
+  <body>
+    <h1>Customer Information:</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Account No.</th>
+            <th>Website</th>
+            <th>Invoice Frequency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= @customer.account_no %></td>
+            <td><%= @customer.website %></td>
+            <td><%= @customer.invoice_frequency %></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
