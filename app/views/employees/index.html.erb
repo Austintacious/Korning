@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employees!</title>
+  </head>
+
+  <body>
+    <h1>Employees</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>E-Mail</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @employees.each do |employee| %>
+        <tr>
+          <td><%= employee.first_name %></td>
+          <td><%= employee.last_name %></td>
+          <td><a href="<%= employee.email.delete("()") %>"><%= employee.email.delete("()") %></a></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </body>
+</html>

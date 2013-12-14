@@ -1,0 +1,23 @@
+Employee
+  *first name
+  *last name
+  *email
+  *has_many :sales
+
+Customer
+  *account number(id)
+  *website address
+  *invoice frequency
+
+Product
+  *name
+
+Sales
+  ***don't show any that have been closed for longer than 3 months
+  ***belongs_to :employee
+  *date
+  *total sale amount
+  *invoice number
+  *units sold
+  *price per unit (total sale / units sold)
+  *employee_id

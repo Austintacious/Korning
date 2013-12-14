@@ -1,5 +1,5 @@
 employee,customer_and_account_no,product_name,sale_date,sale_amount,units_sold,invoice_no,invoice_frequency
-Clancy Wiggum (clancy.wiggum@korning.com),Motorola (MT928534,Chimp Glass,11/13/2012,$795219.34,956306,82547,Monthly
+Clancy Wiggum (clancy.wiggum@korning.com),Motorola MT928534,Chimp Glass,11/13/2012,$795219.34,956306,82547,Monthly
 Ricky Bobby (ricky.bobby@korning.com),LG (LG858843),Baboon Glass,11/01/2012,$503924.24,833176,38173,Monthly
 Bob Lob (bob.lob@korning.com),LG (LG858843),Chimp Glass,05/23/2012,$486241.47,423318,67080,Quarterly
 Ricky Bobby (ricky.bobby@korning.com),HTC (HT925638),Chimp Glass,10/06/2012,$526268.71,480814,73230,Monthly
